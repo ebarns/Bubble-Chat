@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Bubble Chat</string>
+    <string name="bubRoom">Bubble Room</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="clear">Clear</string>
+
+    <string name="qu1">What Is Bubble Chat?</string>
+    <string name="ans1">Bubble chat is a bubbly and fun medium to communicate with your friends! Using only pictures and drawings you can share your life with friends in your Bubble Room.</string>
+
+    <string name="qu2">What Is A Bubble Room?</string>
+    <string name="ans2">A bubble room is our take on the modern news feed. Inside a Bubble Room you can play with the various bubbles as well as click a bubble for a stable and enlarged view.</string>
+
+    <string name="qu3">Can I Save My Bubbles?</string>
+    <string name="ans3">All shared content is not saved. Bubbles exist only in the current Bubble Room but they won\'t be there for long! Bubbles are fragile and eventually pop!</string>
+    <string name="back">Back</string>
+    <string name="descr">Take a picture and send it to a room, or check out what your friends are up to!</string>
+</resources>

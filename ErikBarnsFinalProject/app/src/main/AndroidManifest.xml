@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="depaul.cdm.csc372.erikbarnsfinalproject" >
+    <!--<uses-feature-->
+        <!--android:name="android.hardware.camera2"-->
+        <!--android:required="true">-->
+
+    <!--</uses-feature>-->
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme"
+        android:largeHeap="true">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name= ".bubbleRoom"
+            android:screenOrientation="portrait"
+            android:label="@string/bubRoom"/>
+        <activity android:name=".Drawing_room"
+            android:label="Drawing Room"
+            />
+        <activity android:name=".bubbleImage"
+            android:label="Bubble Chat"
+            />
+        <activity android:name=".infopage"
+            android:label="Info"/>
+    </application>
+
+</manifest>

@@ -1,0 +1,96 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@color/bgblue">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1">
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/bubblechat1"
+            android:contentDescription="bubblechat" />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/image_camera"
+            android:layout_gravity="bottom"
+            android:contentDescription="camera" />
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="140dp"
+            android:gravity="center"
+            android:layout_height="140dp"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/button_draw"
+            android:src="@drawable/button_draw"
+            android:contentDescription="drawbut"
+            android:layout_centerHorizontal="true"/>
+        <ImageView
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_marginRight="20dp"
+            android:layout_gravity="bottom"
+            android:id="@+id/button_info"
+            android:src="@drawable/buttoninfo"
+            android:contentDescription="drawbut"
+            android:layout_alignParentEnd="true"
+            />
+    </RelativeLayout>
+    <!--<LinearLayout-->
+        <!--android:layout_width="fill_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:orientation="horizontal">-->
+        <!--<ImageView-->
+            <!--android:layout_width="130dp"-->
+            <!--android:gravity="center"-->
+            <!--android:layout_height="130dp"-->
+            <!--android:layout_gravity="center_horizontal"-->
+            <!--android:id="@+id/button_draw"-->
+            <!--android:src="@drawable/button_draw"-->
+            <!--android:contentDescription="drawbut" />-->
+        <!--<ImageView-->
+            <!--android:layout_width="70dp"-->
+            <!--android:layout_height="70dp"-->
+            <!--android:layout_gravity="bottom"-->
+            <!--android:id="@+id/button_info"-->
+            <!--android:src="@drawable/buttoninfo"-->
+            <!--android:contentDescription="drawbut" />-->
+
+    <!--</LinearLayout>-->
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom">
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="150dp"
+            android:layout_gravity="bottom"
+            android:id="@+id/button_camera"
+            android:layout_marginBottom="10dp"
+            android:src="@drawable/bubbut"
+            android:contentDescription="camerabut" />
+        <ImageView
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="150dp"
+        android:layout_marginBottom="10dp"
+        android:layout_gravity="bottom"
+        android:id="@+id/button_room"
+        android:src="@drawable/roombut"
+        android:contentDescription="roombut" />
+    </LinearLayout>
+
+
+</LinearLayout>

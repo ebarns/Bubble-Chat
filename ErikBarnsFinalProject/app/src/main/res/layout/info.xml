@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bgblue"
+    android:paddingRight="15dp"
+    android:paddingLeft="15dp"
+    android:paddingTop="5dp">
+
+<LinearLayout
+    android:layout_marginTop="5dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/textbubble"
+    android:padding="10dp">
+    <TextView
+        android:id="@+id/q1"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/qu1"/>
+    <TextView
+        android:id="@+id/a1"
+        android:layout_marginLeft="10dp"
+        android:textSize="16sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ans1"/>
+
+</LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/textbubble"
+        android:padding="15dp">
+        <TextView
+            android:id="@+id/q2"
+            android:textSize="20sp"
+            android:textStyle="bold|italic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/qu2"/>
+        <TextView
+            android:id="@+id/a2"
+            android:layout_marginLeft="10dp"
+            android:textSize="16sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ans2"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/textbubble"
+        android:padding="15dp">
+        <TextView
+            android:id="@+id/q3"
+            android:textSize="20sp"
+            android:textStyle="bold|italic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/qu3"/>
+        <TextView
+            android:id="@+id/a3"
+            android:layout_marginLeft="10dp"
+            android:textSize="16sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ans3"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="2dp"
+        android:gravity="bottom">
+        <ImageView
+            android:id="@+id/backinfo"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:src="@drawable/buttonback"
+            android:contentDescription="roombut" />
+    </LinearLayout>
+
+</LinearLayout>
